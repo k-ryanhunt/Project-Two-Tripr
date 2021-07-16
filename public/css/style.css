@@ -40,7 +40,7 @@ h1 {
   color: rgb(53, 209, 157);
   font-size: 18rem;
   font-family: "Varela Round";
-  text-shadow: 0 0 10px greenyellow;
+  text-shadow: 0 0 4px rgb(53, 209, 157);
   letter-spacing: -0.8rem;
   position: relative;
   margin: 0rem 0rem 0rem 1rem;
