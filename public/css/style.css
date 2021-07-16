@@ -1,20 +1,19 @@
 :root {
-  --background: #5ecfc9;
+  --background: #ca3636;
 }
 
 header {
   margin-bottom: 2rem;
 }
 /* line under header */
-header,
-.project:not(:last-child) {
-  border-bottom: 1px solid rgb(221, 221, 221);
+header {
+  border-bottom: 10px solid rgb(233, 109, 167);
 }
 
 nav {
   padding-bottom: 1rem;
-  font-family: "Cinzel";
-  color: #ffb8d1;
+  font-family: "Montserrat";
+  color: greenyellow;
   font-weight: bold;
 }
 p {
@@ -22,27 +21,28 @@ p {
   margin: 0 0 2rem;
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Oswald";
+  font-family: "Montserrat";
+  text-align: center;
 }
 
 a {
-  color: #ebebeb;
+  color: rgb(233, 109, 167);
   text-decoration: none;
   text-transform: capitalize;
+  font-family: "Montserrat";
 }
 
 a:hover {
-  color: #ffb8d1;
-  font-weight: 600;
+  font-size: larger;
 }
 
 h1 {
+  color: rgb(53, 209, 157);
   font-size: 18rem;
-  font-family: ""Raleway", sans-serif";
+  font-family: "Varela Round";
+  text-shadow: 0 0 10px greenyellow;
   letter-spacing: -0.8rem;
   position: relative;
-  background: var(--background);
-  color: #ffffff;
   margin: 0rem 0rem 0rem 1rem;
   border-radius: 4px;
   text-transform: none;
@@ -66,15 +66,15 @@ h1:before {
       -45deg,
       transparent,
       transparent 1em,
-      #9e2053 1em,
-      rgb(242, 102, 255) 20%
+      #cbffac 1em,
+      rgb(45, 253, 173) 50%
     ),
     repeating-linear-gradient(
       85deg,
-      #ffea73,
-      #91d396 1em,
-      rgb(255, 79, 108) 1em,
-      #3bcdf1 80%
+      #b8cbff,
+      #67aad6 1em,
+      rgb(109, 143, 253) 1em,
+      #21c4ec 50%
     );
   background-size: 3em 3em, 2em 2em;
   animation-name: ani;
@@ -89,6 +89,7 @@ h2 {
   color: #ffffff;
   margin-bottom: 0%;
   text-transform: capitalize;
+  text-align: center;
 }
 
 h3 {
@@ -121,6 +122,8 @@ body {
 
 #homepage {
   width: 90vw;
+  background-color: white;
+  border-radius: 40px;
 }
 form .form-input {
   width: 100%;
@@ -135,7 +138,7 @@ form .form-input {
 
 #project-name {
   text-transform: capitalize;
-  }
+}
 
 .no-button {
   background: none;
