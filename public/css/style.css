@@ -16,6 +16,7 @@ nav {
   color: greenyellow;
   font-weight: bold;
 }
+
 p {
   font-size: 1.3rem;
   margin: 0 0 2rem;
@@ -25,15 +26,14 @@ p {
   text-align: center;
 }
 
-a {
+a,
+h3{
   color: rgb(233, 109, 167);
   text-decoration: none;
   text-transform: capitalize;
   font-family: "Montserrat";
-}
-
-a:hover {
-  font-size: larger;
+  padding: 5px;
+  text-align: center;
 }
 
 h1 {
@@ -46,6 +46,7 @@ h1 {
   margin: 0rem 0rem 0rem 1rem;
   border-radius: 4px;
   text-transform: none;
+  text-align: left;
 }
 
 h1:before {
@@ -90,11 +91,9 @@ h2 {
   margin-bottom: 0%;
   text-transform: capitalize;
   text-align: center;
+  padding: 5px;
 }
 
-h3 {
-  font-size: x-large;
-}
 .col-md-5 {
   color: #e0e0e0;
 }
@@ -120,10 +119,12 @@ body {
   width: 90vw;
 }
 
-#homepage {
+#homepage,
+.main {
   width: 90vw;
   background-color: white;
   border-radius: 40px;
+  align-items: center;
 }
 form .form-input {
   width: 100%;
