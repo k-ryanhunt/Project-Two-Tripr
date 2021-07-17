@@ -1,8 +1,10 @@
-# Project-2-Travel-Greens
+# Tripr
 
 Welcome to Tripr, the environmentally friendly trip advisor!  
 
 If you are new to Tripr, you will be asked to create a user profile.  Some features are available to sample without a user profile, but it only takes a few moments to create a profile and get the full experience of the app.  With Tripr, you can view travel destinations on a map, log trips that you've taken that include blogs and pictures, and you can invite your friends to join so that they can see all the beautiful places you've been to!  
+
+![Screenshot](./images/tripr.png)
 
 # Creating a Profile
 
@@ -10,7 +12,7 @@ When you open the web page, you will be prompted to log in.  You will click on t
 
 # Create a trip
 
-Once a profile has been created or the exisint user has logged in, then you will be able to create a trip.  You will be prompted to enter the location and the date of the trip you wish to create a log for, and in the 'memories' section, you can reflect on your vacation experience and share all the details of your adventure!
+Once a profile has been created or an existing user has logged in, then you will be able to create a trip.  You will be prompted to enter the location and the date of the trip you wish to create a log for, and in the 'memories' section, you can reflect on your vacation experience and share all the details of your adventure!
 
 # View your trip location on an interactive map!
 
@@ -25,8 +27,13 @@ https://tripr-project2.herokuapp.com/
 * Express.JS
 * Sequelize
 * MySQL
+* Handlebars
+* Bcrypt
 
 ## Contributors
+
+* Kelsea Hunt
+https://github.com/k-ryanhunt
 
 * Nick Clymer
 https://github.com/ncclymer
@@ -36,6 +43,3 @@ https://github.com/JDavid337
 
 * Matthew Elliott
 https://github.com/MatteoThomas
-
-* Kelsea Hunt
-https://github.com/k-ryanhunt
