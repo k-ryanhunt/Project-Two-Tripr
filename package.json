@@ -1,5 +1,5 @@
 {
-  "name": "project-2-travel-green",
+  "name": "project-two-tripr",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/k-ryanhunt/Project-2-Travel-Green.git"
+    "url": "git+https://github.com/k-ryanhunt/Project-Two-Tripr.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/k-ryanhunt/Project-2-Travel-Green/issues"
+    "url": "https://github.com/k-ryanhunt/Project-Two-Tripr/issues"
   },
-  "homepage": "https://github.com/k-ryanhunt/Project-2-Travel-Green#readme",
+  "homepage": "https://github.com/k-ryanhunt/Project-Two-Tripr#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cloudinary-core": "^2.11.4",
